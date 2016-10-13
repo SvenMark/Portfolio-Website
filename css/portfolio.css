@@ -1,6 +1,7 @@
 body {
     font-family: 'Baloo Bhai', cursive;
     font-size: 15px;
+    /*background-color: #D95E3C;*/
     background: url("../img/background.jpg") no-repeat center fixed;
     background-size: cover;
 }
@@ -10,32 +11,32 @@ nav {
 }
 #section1 {
     padding: 50px 20px;
-    color: #fff;
-    background-color: #1E88E5;
+    color: black;
+    background-color: #E5E2DD;
 }
 
 #section2 {
     padding: 50px 20px;
     color: #fff;
-    background-color: #673ab7;
+    background-color:rgba(0, 0, 0, 0.7);
 }
 
 #section3 {
     padding: 50px 20px;
-    color: #fff;
-    background-color: #ff9800;
+    color: black;
+    background-color: #E5E2DD;
 }
 
 #section4 {
     padding: 50px 20px;
     color: #fff;
-    background-color: #00bcd4;
+    background-color:rgba(0, 0, 0, 0.7);
 }
 
 #section5 {
     padding: 50px 20px;
-    color: #fff;
-    background-color: #009688;
+    color: black;
+    background-color: #E5E2DD;
 }
 
 .popupbox {
@@ -47,5 +48,5 @@ nav {
     text-align: center;
     padding: 15px 20px;
     color: #fff;
-    background-color: limegreen;
+    background-color:rgba(0, 0, 0, 0.7);
 }
