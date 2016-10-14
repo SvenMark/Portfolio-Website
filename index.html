@@ -299,7 +299,13 @@
 
 <!-- footer -->
 <div id="footer">
-    <h1>&copy; Sven Mark Hofstra</h1>
+    <!-- script displaying current year -->
+    <h1>&copy; Sven Mark Hofstra <!--suppress JSCheckFunctionSignatures -->
+        <script language="javascript" type="text/javascript">
+        var today = new Date();
+        var year = today.getFullYear();
+        document.write(year)
+    </script></h1>
 </div>
 <!-- end of footer -->
 
