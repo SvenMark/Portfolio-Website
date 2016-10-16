@@ -22,7 +22,14 @@ nav {
     width: auto;
     height: 400px;
     text-align: center;
+    margin: 10px;
 }
+
+#cv-knop {
+    margin: auto;
+    width: 10vw;
+}
+
 #section1 {
     padding: 50px 20px;
     color: #fff;
@@ -51,13 +58,6 @@ nav {
     text-align: center;
 }
 
-#section5 {
-    padding: 50px 20px;
-    color: #fff;
-    background-color:rgba(0, 0, 0, 0.7);
-    text-align: center;
-}
-
 .popupbox {
     color: lightseagreen;
 }
@@ -66,8 +66,8 @@ nav {
     font-size: 18px;
     text-align: center;
     padding: 15px 20px;
-    color: black;
-    background-color: #E5E2DD;
+    color: #fff;
+    background-color:rgba(0, 0, 0, 0.7);
 }
 
 .icons {
