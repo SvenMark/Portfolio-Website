@@ -13,7 +13,7 @@ nav {
 #head {
     padding: 50px 20px;
     color: black;
-    background-color: #E5E2DD;
+    background-color: #fff;
     text-align: center;
     margin-bottom: 0px;
 }
@@ -27,7 +27,7 @@ nav {
 
 #cv-knop {
     margin: auto;
-    width: 10vw;
+    width: 50%;
 }
 
 #section1 {
