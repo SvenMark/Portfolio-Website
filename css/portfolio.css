@@ -30,6 +30,10 @@ nav {
     width: 50%;
 }
 
+center {
+    text-align: center;
+}
+
 #section1 {
     padding: 50px 20px;
     color: #fff;
