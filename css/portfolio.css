@@ -13,30 +13,35 @@ nav {
     padding: 50px 20px;
     color: black;
     background-color: #E5E2DD;
+    text-align: center;
 }
 
 #section2 {
     padding: 50px 20px;
     color: #fff;
     background-color:rgba(0, 0, 0, 0.7);
+    text-align: center;
 }
 
 #section3 {
     padding: 50px 20px;
     color: black;
     background-color: #E5E2DD;
+    text-align: center;
 }
 
 #section4 {
     padding: 50px 20px;
     color: #fff;
     background-color:rgba(0, 0, 0, 0.7);
+    text-align: center;
 }
 
 #section5 {
     padding: 50px 20px;
     color: black;
     background-color: #E5E2DD;
+    text-align: center;
 }
 
 .popupbox {
@@ -51,19 +56,23 @@ nav {
     background-color:rgba(0, 0, 0, 0.7);
 }
 
-/* Let's get this party started */
+.icons {
+    font-size: 40px;
+}
+
+/* scrolling */
 ::-webkit-scrollbar {
     width: 12px;
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -73,3 +82,4 @@ nav {
 ::-webkit-scrollbar-thumb:window-inactive {
     background: rgba(255,0,0,0.4);
 }
+/*end of scrolling*/
