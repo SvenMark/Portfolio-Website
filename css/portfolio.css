@@ -13,7 +13,7 @@ nav {
 #head {
     padding: 50px 20px;
     color: black;
-    background-color: #fff;
+    background-color: #F0F8FF;
     text-align: center;
     margin-bottom: 0;
 }
@@ -36,7 +36,7 @@ center {
 
 #section1 {
     padding: 50px 20px;
-    color: #fff;
+    color: #F0F8FF;
     background-color:rgba(0, 0, 0, 0.7);
     text-align: center;
 }
@@ -44,13 +44,13 @@ center {
 #section2 {
     padding: 50px 20px;
     color: black;
-    background-color: #E5E2DD;
+    background-color: #F0F8FF;
     text-align: center;
 }
 
 #section3 {
     padding: 50px 20px;
-    color: #fff;
+    color: #F0F8FF;
     background-color:rgba(0, 0, 0, 0.7);
     text-align: center;
 }
@@ -58,7 +58,7 @@ center {
 #section4 {
     padding: 50px 20px;
     color: black;
-    background-color: #E5E2DD;
+    background-color: #F0F8FF;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ center {
     font-size: 18px;
     text-align: center;
     padding: 15px 20px;
-    color: #fff;
+    color: 	#F0F8FF;
     background-color:rgba(0, 0, 0, 0.7);
 }
 
