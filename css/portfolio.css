@@ -13,7 +13,7 @@ nav {
 #head {
     padding: 50px 20px;
     color: black;
-    background-color: #F0F8FF;
+    background-color: #FAEBD7;
     text-align: center;
     margin-bottom: 0;
 }
@@ -23,6 +23,10 @@ nav {
     height: 400px;
     text-align: center;
     margin: 10px;
+}
+
+button {
+    background-color: #FFDEAD;
 }
 
 #cv-knop {
@@ -40,7 +44,7 @@ center {
 
 #section1 {
     padding: 50px 20px;
-    color: #F0F8FF;
+    color: #FAEBD7;
     background-color:rgba(0, 0, 0, 0.7);
     text-align: center;
 }
@@ -48,13 +52,13 @@ center {
 #section2 {
     padding: 50px 20px;
     color: black;
-    background-color: #F0F8FF;
+    background-color: #FAEBD7;
     text-align: center;
 }
 
 #section3 {
     padding: 50px 20px;
-    color: #F0F8FF;
+    color: #FAEBD7;
     background-color:rgba(0, 0, 0, 0.7);
     text-align: center;
 }
@@ -62,7 +66,7 @@ center {
 #section4 {
     padding: 50px 20px;
     color: black;
-    background-color: #F0F8FF;
+    background-color: #FAEBD7;
     text-align: center;
 }
 
@@ -74,7 +78,7 @@ center {
     font-size: 18px;
     text-align: center;
     padding: 15px 20px;
-    color: 	#F0F8FF;
+    color: 	#FAEBD7;
     background-color:rgba(0, 0, 0, 0.7);
 }
 
