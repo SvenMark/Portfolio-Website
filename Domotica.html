@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Classic Kart</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<!-- jumbotron -->
+<div class="jumbotron" id="head">
+    <div class="container">
+        <h1>Domotica</h1>
+        <img src="img/domotica.jpg" class="img-rounded" alt="Domotica">
+    </div>
+</div>
+<!-- end of jumbotron -->
+
+<!-- Section 1 -->
+<div id="section1" class="font">
+    <div class="container">
+        <span class="glyphicon glyphicon-user icons"></span>
+        <h1>Opdracht</h1>
+        <h3>A opdracht</h3>
+        <p>
+            Breid de gegeven voorbeeldcode (Arduino en Xamarin, zoals beschikbaar
+            gesteld via BB) uit tot een domotica-systeem dat:
+            <ol>
+                <li>Minstens 3 RF-stopcontacten afzonderlijk kan aansturen. Van elk
+                    stopcontact is op de Arduino én op de app de actuele status te zien
+                    (aan/uit). Het interface is functioneel, logisch, responsief en
+                    gebruiksvriendelijk. Meer info bij het college “User Experience”.</li>
+                <li>Het interface van de app toont de actuele sensorwaarden afkomstig
+                    van minstens twee sensoren, beide verbonden met de Arduino. Je
+                    bent vrij in de keuze van je sensoren. Aanbevolen wordt het gebruik
+                    van eenvoudige en goedkope sensoren zoals een (analoge)
+                    lichtsensor en een (analoge of digitale) temperatuursensor. Mocht je
+                    andere sensoren willen gebruik dan mag dat ook. Denk aan sensoren
+                    voor het meten van kracht, hoek (joy stick of potentiometer),
+                    versnelling (acceleratie) of afstand.
+                    Er worden geen hoge kwaliteitsnormen aan de sensoren gesteld; het mogen goedkope
+                    componenten zijn, zoals de digitale “one wire” temperatuursensor “DS18B20” of een analoge
+                    NTC (=warmteweerstand) en de LDR (=fotoweerstand). Dergelijke sensoren zijn niet alleen
+                    goedkoop en geschikt voor de Arduino, ze worden vaak ook meegeleverd als onderdeel van
+                    een Arduino-ontwikkelkit.
+                    De meetsnelheid is instelbaar en ligt tussen 1 en 10 metingen per 10 seconden.
+                    Optioneel is de mogelijkheid om de sensoren via de app aan en uit te kunnen zetten.</li>
+                <li>De app en het interface moeten een mode ondersteunen waarbij de
+                    volgende domotica-toepassing te realiseren is: één van de beide
+                    sensoren moet, via de app, op een zodanige manier gekoppeld kunnen
+                    worden aan één van de drie stopcontacten dat grenzen bewaakt
+                    kunnen worden. Voorbeelden: wanneer de temperatuur boven een
+                    bepaald en via de app instelbaar niveau komt gaat er een lamp
+                    (ventilator of koude föhn) aan of wanneer de hoeveel licht onder een
+                    bepaald en eveneens via de app instelbaar niveau komt, gaat er een
+                    lamp aan. De bewaking heeft betrekking op een statisch grens. Als de
+                    gemeten grootheid weer onder de grens komt gaat de föhn/lamp weer uit.</li>
+                <li>Het systeem ondersteunt een functie waarbij minstens één van de stopcontacten wordt aanof
+                    uitgeschakeld op grond van een, via de app instelbaar, tijdcriterium (vgl. met een
+                    kookwekker, lamp aan na 10 minuten of actie op een bepaalde tijd (koffiezetapparaat aan om
+                    5 uur ’s middags).</li>
+                <li>De app heeft een flexibel (gebruikers)interface t.a.v. de koppeling tussen Arduino (server) en
+                    app (client) voor wat betreft netwerkconfiguratie, met bijvoorbeeld een automatische
+                    connectie met de server of met een lijstje met IP-nummers.
+                    Optioneel/Bonus voor de A-opdracht (of alvast ideeën voor B-opdracht). Toepassen van meer
+                    sensoren (bijv. luchtdruk, luchtvochtigheid, infrarood, afstand, aanraak)</li>
+                <ul><li>
+                    Configuratie van de sensoren via de app (bijv. koppeling aan IO-pin, bereik, spanning)
+                </li>
+                    <li>Grafische weergave van data, met grafiekjes en trends.</li>
+                </ul>
+                <li>
+                    <li>Dynamische grenzen i.p.v. statische grenzen (snelle stijging per tijdseenheid).</li>
+                    <li>Logging of eenvoudige dataopslag van sensorgegevens.</li>
+                    <li>Koppeling van tijdfuncties aan Google agenda (lamp aan: 27 jan. 9.00 uur en uit 27 jan. om
+                        14.00 uur.
+                    </li>
+            </ol>
+        </p>
+    </div>
+</div>
+<!-- end of Section 1 -->
